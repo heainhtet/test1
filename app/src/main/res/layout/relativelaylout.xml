@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+   android:background="#163C7A"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/text_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android development"
+        android:textColor="#960052"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_b"
+        android:text="Bootcamp"
+        android:textSize="30sp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/text_a"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_c"
+        android:text="Layout example"
+        android:textSize="30sp"
+        android:layout_toRightOf="@+id/txt_b"
+        android:textColor="#001496"
+        android:layout_below="@+id/text_a"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#001496"
+        android:text="Button"/>
+
+
+</RelativeLayout>
